@@ -1,4 +1,4 @@
-const account = [Sausis, Vasaris, Kovas, Balandis, Gegužė, Birželis, Liepa, Rūgpjūtis, Rugsėjis, Spalis, Lapkritis, Gruodis
+const metai = [Sausis, Vasaris, Kovas, Balandis, Gegužė, Birželis, Liepa, Rūgpjūtis, Rugsėjis, Spalis, Lapkritis, Gruodis
     { [9]: 10, income: 150 },
     { [0]: 1, income: 200, expense: 50 },
     { [2]: 3, income: 450, expense: 200 },
@@ -12,4 +12,12 @@ const account = [Sausis, Vasaris, Kovas, Balandis, Gegužė, Birželis, Liepa, R
     { [7]: 8, income: 450, expense: 120 },
     { [11]: 12, expense: 200 }
 ];
-console.log();
+
+function pajamos(metai) {
+    let sum = 0;
+    sum += metai[0]; 
+   
+}
+
+
+console.log(pajamos);
